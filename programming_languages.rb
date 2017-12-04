@@ -10,7 +10,7 @@ def reformat_languages(languages)
   styles_ary = languages.keys
   #binding.pry
   languages_ary = languages.values # => array with languages and their types
-  #binding.pry
+  binding.pry
   new_hash = languages_ary
   new_hash[:ruby] = {:style => [styles_ary[0]]}
   new_hash[:javascript] = {:style => [styles_ary]}

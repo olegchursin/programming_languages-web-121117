@@ -1,3 +1,18 @@
+require "pry"
+
 def reformat_languages(languages)
-  # your code here
+  new_hash = {}
+
+  # create array of languages
+  # create array of styles
+  # create hash of types
+
+  styles_ary = languages.keys
+  #binding.pry
+  languages_ary = languages.values # => array with languages and their types
+  #binding.pry
+  new_hash = languages_ary
+  new_hash[:ruby] = {:style => [styles_ary[0]]}
+  binding.pry
+  new_hash
 end

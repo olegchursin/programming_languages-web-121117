@@ -19,7 +19,7 @@ def reformat_languages(languages)
   new_hash[:clojure] = {:style => [styles_ary[1]]}
   new_hash[:erlang] = {:style => [styles_ary[1]]}
   new_hash[:scala] = {:style => [styles_ary[1]]}
-  #binding.pry
-  
+  binding.pry
+
   new_hash
 end
